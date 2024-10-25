@@ -27,7 +27,7 @@ const Header = (prop) => {
   const [search, setSearch] = useState('');
 
   const searchRef = createRef();
-  const bannerMessage = 'Free shipping worldwide';
+  const bannerMessage = 'Selamat Datang di Noir';
   const searchSuggestions = [
     'Oversize sweaters',
     'Lama Pajamas',
@@ -80,9 +80,6 @@ const Header = (prop) => {
 
   return (
     <div className={styles.root}>
-      <div className={styles.headerMessageContainer}>
-        <span>{bannerMessage}</span>
-      </div>
       <Container size={'large'} spacing={'min'}>
         {/* header container */}
         <div className={styles.header}>
